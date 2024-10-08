@@ -436,11 +436,12 @@ document.body.appendChild(script);
 
 
 
-            <div className="call-btn" style={{ display: 'flex', alignItems: 'center' }}>
-  <span style={{marginLeft:'19%'}}>Call</span>
-  <a id="test" href="tel:" style={{ textDecoration: 'none', marginLeft: '8px' }}>
-  </a>
-</div>
+<div className="call-btn" onClick={handleCall}>
+
+            
+<a id='test'  href='tel:' style={{ textDecoration: 'none', display: 'block', width: '100%', height: '100%' }}></a>
+  </div>
+
 
 
 
