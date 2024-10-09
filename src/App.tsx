@@ -37,7 +37,7 @@ function App() {
       <div className="App">
         <Routes>
           {/* c */}
-
+          <Route path = "/test" element = {<First_EN />} />
           <Route  path="/"  element = {<S />} />
           {/* <Route  path="/toast"  element = {<Toast />} />
           <Route path = "/engmedgdn" element = {<Party />} />
