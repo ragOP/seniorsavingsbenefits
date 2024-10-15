@@ -558,10 +558,6 @@ height: 100vh;
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / .25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
 }
-.call-btn a {
-  color: white; /* Ensure the text is white */
-  text-decoration: none; /* Remove underline */
-}
 
 .call-btn:hover{
   background-color: rgb(59, 236, 124);
@@ -737,8 +733,8 @@ height: 100vh;
     margin-top: 1rem;
   }
   .quiz-5{
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1.82rem;
+    line-height: 2.5rem;
   }
   .survey{
     padding: 0;
@@ -786,6 +782,5 @@ font-weight: bold;
 }
 .call-btn {
 -webkit-animation: glow 1.5s infinite alternate;
-animation: glow 1.5s infinite alternate;
-height:70px;
+animation: glow 1.5s infinite alternate
 }

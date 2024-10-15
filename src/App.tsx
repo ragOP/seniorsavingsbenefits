@@ -66,7 +66,6 @@ function App() {
           <Route path="/privacy-policy" element={<Privacy />} />
           {/* <Route path = "/a" element = {<S />} /> */}
           <Route path = "/engmed-tsf" element = {<Tsf/>} />
-
           <Route path = "/view" element = {<Visits />} />
           <Route path = "/*" element = {<NotFound />} />
         </Routes>
